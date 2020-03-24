@@ -41,7 +41,7 @@ apk update && apk upgrade
 echo "root:toor" | chpasswd
 
 # TIME
-setup-timezone -z UTC | -z Europe/Rome | -p EST+1]
+setup-timezone  -z Europe/Rome 
 
 # ENABLE NEW HOSTNAME (pitv)
 /etc/init.d/hostname --quiet restart
